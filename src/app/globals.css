@@ -1,3 +1,5 @@
+@import './variables.css';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -40,6 +42,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button {
+  background-color: var(--red);
 }
 
 @media (prefers-color-scheme: dark) {
